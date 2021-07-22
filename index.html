@@ -3,201 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Open Sans', 'Tahoma', 'Verdana', sans-serif;
-        }
-
-        #header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: #fff;
-            border-bottom: 1px solid #ccc;
-            padding: 15px 0;
-            z-index: 9;
-        }
-
-        .holder {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-
-        @media all and (max-width: 820px) {
-            header {
-                flex-wrap: wrap;
-            }
-
-            logo-wrapper {
-                margin: 0 auto;
-            }
-
-            header-img {
-                margin: 0 auto;
-            }
-
-
-            .nav-bar {
-                display: none;
-            }
-        }
-
-        .header-img {
-            width: 15rem;
-            height: 2rem;
-        }
-
-        .list-reset {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        ul {
-            display: flex;
-            font-size: 15px;
-            font-weight: 600;
-        }
-
-        li {
-            padding: 10px 15px;
-            color: #424242;
-            text-decoration: none;
-        }
-
-        a {
-            padding: 10px 15px;
-            color: #424242;
-            text-decoration: none;
-        }
-
-        .main {
-            padding-top: 100px;
-        }
-
-        holder-section {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-
-        .section {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding-top: 30px;
-        }
-
-
-        .title {
-            display: block;
-            margin: 0 0 20px;
-            font-size: 35px;
-            font-weight: 600;
-            color: #333;
-            text-align: center;
-        }
-
-        .plans {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .plan {
-            position: relative;
-            max-width: 250px;
-            padding: 15px 15px 50px;
-            margin: 0 15px 30px;
-            border: 2px solid #f48020;
-        }
-
-        .title-plan {
-            font-weight: 400;
-        }
-
-        .price {
-            margin: 0 0 15px;
-            font-size: 18px;
-            font-weight: 900;
-        }
-
-        .btn {
-            position: absolute;
-            padding: 10px 15px;
-            bottom: 15px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #f48020;
-            font-size: 16px;
-            border: 0;
-            color: #fff;
-            text-align:center;
-        }
-
-        .btn:hover {
-            background: #f69353;
-        }
-
-        .btn-light {
-            background: #fff;
-            color: #333;
-            border: 2px solid #f47f22;
-
-        }
-
-        .btn-light:hover {
-            background: #f69353;
-        }
-
-        input {
-            padding: 10px 15px;
-            font-size: 16px;
-            border: 2px solid #aaa;
-        }
-
-        #subscription {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background: #f0f0f0;
-        }
-    </style>
+    <link rel="stylesheet" href="Product%20Landing%20Page.css">
 </head>
 <body>
 <header id="header">
     <div class="holder">
-    <div class="logo-wrapper clearfix">
-    <img id="header-img" class="header-img" src="https://s3.amazonaws.com/statuspage-production/pages-transactional_logos/retina/7809/JAVqjzc1Q32Y9zajzp4F">
-    </div>
+        <div class="logo-wrapper clearfix">
+            <img id="header-img" class="header-img"
+                 src="https://s3.amazonaws.com/statuspage-production/pages-transactional_logos/retina/7809/JAVqjzc1Q32Y9zajzp4F" alt="cloudflare logo">
+        </div>
         <nav id="nav-bar" class="nav-bar">
-        <ul class="list-reset">
-            <li><a class="nav-link" href="#about">About Us</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#contact"> Our Plans</a></li>
-            <li><a class="nav-link" href="#about">Subscribtion</a></li>
-        </ul>
-    </nav>
+            <ul class="list-reset">
+                <li><a class="nav-link" href="#about">About Us</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#plans"> Our Plans</a></li>
+                <li><a class="nav-link" href="#subscription">Subscription</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <main class="main">
     <section id="about" class="section">
         <div class="holder-section">
             <div class="title">About Us</div>
-            <p>Cloudflare, Inc. is a U.S. company that provides content delivery network services, DDoS mitigation, Internet security and distributed domain name server services, sitting between the visitor and the Cloudflare user's hosting provider, acting
-                as a reverse proxy for websites. Cloudflare's headquarters are in San Francisco, California, with additional offices in London, Singapore, Champaign, Austin, Boston and Washington, D.C.</p>
+            <p>Cloudflare, Inc. is a U.S. company that provides content delivery network services, DDoS mitigation,
+                Internet security and distributed domain name server services, sitting between the visitor and the
+                Cloudflare user's hosting provider, acting
+                as a reverse proxy for websites. Cloudflare's headquarters are in San Francisco, California, with
+                additional offices in London, Singapore, Champaign, Austin, Boston and Washington, D.C.</p>
         </div>
     </section>
     <section id="how-it-works" class="section">
-        <div class=holder-section">
+        <div class="holder-section">
             <div class="title">How It Works</div>
-<iframe id="video" width="100%" height="500"
-        src="https://www.youtube.com/embed/T47T_mG7YbU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
+            <iframe id="video" width="100%" height="500"
+                    src="https://www.youtube.com/embed/T47T_mG7YbU" allow="autoplay; encrypted-media"
+                    allowfullscreen>
+            </iframe>
         </div>
     </section>
     <section id="plans" class="section">
@@ -207,7 +49,7 @@
                 <div class="plan">
                     <div class="title title-plan">Basic</div>
                     <div class="price">£50</div>
-                    <div class="description">For individuals with a personal website and anyone who wants to explore Cloudflare.</div>
+                    <p>For individuals with a personal website and anyone who wants to explore Cloudflare.</p>
                     <button class="btn">Want this</button>
                 </div>
                 <div class="plan">
@@ -219,7 +61,8 @@
                 <div class="plan">
                     <div class="title title-plan">Pro</div>
                     <div class="price">£100</div>
-                    <p>For small eCommerce websites & businesses requiring advanced security and performance, PCI compliance, and prioritized support.</p>
+                    <p>For small eCommerce websites & businesses requiring advanced security and performance, PCI
+                        compliance, and prioritized support.</p>
                     <button class="btn">Want this</button>
                 </div>
             </div>
@@ -228,10 +71,10 @@
     <section id="subscription" class="section">
         <div class="holder-section">
             <div class="title">Subscription</div>
-        <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
-            <input type="email" placeholder="Enter your email" required>
-            <input type="submit" id="submit" class="btn-light" value="Send">
-        </form>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" class="btn-light">
+            </form>
         </div>
     </section>
 </main>

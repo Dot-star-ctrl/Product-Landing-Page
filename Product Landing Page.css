@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Tahoma', 'Verdana', sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    z-index: 9;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media all and (max-width: 820px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+.nav-bar {
+        display: none;
+    }
+}
+
+.header-img {
+    width: 15rem;
+    height: 2rem;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li {
+    padding: 10px 15px;
+    color: #424242;
+    text-decoration: none;
+}
+
+a {
+    padding: 10px 15px;
+    color: #424242;
+    text-decoration: none;
+}
+
+.main {
+    padding-top: 100px;
+}
+
+holder-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section#how-it-works,
+.section#subscription {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    position: relative;
+    max-width: 250px;
+    padding: 15px 15px 50px;
+    margin: 0 15px 30px;
+    border: 2px solid #f48020;
+}
+
+.title-plan {
+    font-weight: 400;
+}
+
+.price {
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.btn {
+    position: absolute;
+    padding: 10px 15px;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f48020;
+    font-size: 16px;
+    border: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #f69353;
+}
+
+.btn-light {
+    background: #fff;
+    color: #333;
+    border: 2px solid #f47f22;
+
+}
+
+.btn-light:hover {
+    background: #f69353;
+}
+
+input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #aaa;
+}
+
+#video {
+    align-items: center;
+    max-width: 1000px;
+}
+
+#about {
+    max-width: 1000px;
+    margin: 0 auto;
+}
